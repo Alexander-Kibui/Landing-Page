@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding:0;
+	list-style: none;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	font-family: "Roboto Condensed", sans-serif;
+}
+
+section {
+	min-height: 100vh;
+	background-image:url("and.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container {
+	width: 85%;
+	margin: auto;
+}
+
+nav {
+	height:80px;
+}
+
+nav h1 {
+	font-size: 35px;
+	color: blueviolet;
+	text-decoration: none;
+	line-height: 80px;
+	float: left;
+}
+
+nav ul {
+	float: right;
+	line-height: 80px;
+}
+
+nav ul li {
+	display: inline-block;
+	padding:0px 5px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color:powderblue;
+	text-transform: uppercase;
+	border-radius: 5px;
+	padding:7px 10px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+	background-color:blueviolet;
+	transition: .4s ease;
+}
+
+.article {
+	text-align: center;
+	width:50%;
+	margin: auto;
+	transform: translateY(25vh);
+}
+
+.article h1 {
+	margin-bottom: 30px;
+	color: slateblue;
+	letter-spacing: 1.5px;
+	font-size: 35px;
+	font-weight: 600;
+}
+
+.article p {
+	line-height: 1.5;
+	color:powderblue;
+	margin-bottom:30px;
+	font-size:18px;
+}
+
+.article .btn {
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: blueviolet;
+	color:powderblue;
+	padding: 8px 14px;
+}
+
+.article .btn:hover {
+	background-color: dodgerblue;
+	color: darkblue;
+}
